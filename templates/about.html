@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - Emotion Detector</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background: #f8f9fa;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+    h1 {
+      font-weight: 700;
+      color: #343a40;
+      margin-top: 40px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">Emotion Detector</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Live Feed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/team">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 flex-grow-1">
+    <h1 class="text-center">About Emotion Detector</h1>
+    <p class="mt-4">
+      The Emotion Detector is a real-time facial expression recognition system powered by computer vision and deep learning.
+      It captures video from a live webcam feed, processes facial features, and predicts the user's emotion using a trained model.
+    </p>
+    <p>
+      Built using Python, Flask, OpenCV, and Bootstrap 5, this application aims to demonstrate the use of artificial intelligence
+      in enhancing human-computer interaction.
+    </p>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 | Built with Flask & Bootstrap by SRUN Borath❤️
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
